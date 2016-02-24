@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="LepraProfileUserTextCell" id="3ie-Jq-J0j" customClass="LepraProfileUserTextCell">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="3ie-Jq-J0j" id="A23-Xz-NnA">
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="User text" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7qi-pX-XYm" customClass="TTTAttributedLabel">
+                        <rect key="frame" x="8" y="0.0" width="584" height="17.5"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MQM-vC-DH4">
+                        <rect key="frame" x="0.0" y="0.0" width="0.0" height="44.5"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="width" id="TKc-ks-Vgq"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="7qi-pX-XYm" firstAttribute="top" secondItem="A23-Xz-NnA" secondAttribute="top" id="2Df-pv-Z6h"/>
+                    <constraint firstAttribute="bottom" secondItem="MQM-vC-DH4" secondAttribute="bottom" constant="-1" id="Xxk-lD-yDW"/>
+                    <constraint firstAttribute="trailing" secondItem="7qi-pX-XYm" secondAttribute="trailing" constant="8" id="bCS-Ta-sGk"/>
+                    <constraint firstItem="MQM-vC-DH4" firstAttribute="top" secondItem="A23-Xz-NnA" secondAttribute="top" id="cbz-2y-9op"/>
+                    <constraint firstItem="7qi-pX-XYm" firstAttribute="leading" secondItem="MQM-vC-DH4" secondAttribute="trailing" constant="8" id="yIm-mG-TQ0"/>
+                    <constraint firstItem="MQM-vC-DH4" firstAttribute="leading" secondItem="A23-Xz-NnA" secondAttribute="leading" id="yUx-mL-gXw"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="leftOffsetConstraint" destination="TKc-ks-Vgq" id="T95-4t-McU"/>
+                <outlet property="leftOffsetView" destination="MQM-vC-DH4" id="cWU-Wi-xR6"/>
+                <outlet property="userTextLabel" destination="7qi-pX-XYm" id="bRn-h1-3S4"/>
+            </connections>
+            <point key="canvasLocation" x="214" y="264"/>
+        </tableViewCell>
+    </objects>
+</document>

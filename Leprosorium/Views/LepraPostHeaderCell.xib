@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="LepraPostHeaderCell" rowHeight="50" id="ckL-hW-bZU" customClass="LepraPostHeaderCell">
+            <rect key="frame" x="0.0" y="0.0" width="400" height="50"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ckL-hW-bZU" id="Z1K-R7-qaO">
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.49999999999999961" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="User prefix text" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qLI-oR-jF3">
+                        <rect key="frame" x="8" y="10" width="384" height="12.5"/>
+                        <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="10"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.49999999999999961" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Username" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gPs-Lg-7My">
+                        <rect key="frame" x="8" y="22.5" width="384" height="17.5"/>
+                        <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="14"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cW8-cU-m1p">
+                        <rect key="frame" x="0.0" y="0.0" width="0.0" height="49.5"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="width" id="kwc-u4-4Wj"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="gPs-Lg-7My" firstAttribute="leading" secondItem="cW8-cU-m1p" secondAttribute="trailing" constant="8" id="1sq-9q-UXS"/>
+                    <constraint firstItem="gPs-Lg-7My" firstAttribute="leading" secondItem="Z1K-R7-qaO" secondAttribute="leading" constant="8" id="Ky6-yG-0wl"/>
+                    <constraint firstItem="gPs-Lg-7My" firstAttribute="top" secondItem="qLI-oR-jF3" secondAttribute="bottom" id="OXx-Xa-Zpb"/>
+                    <constraint firstItem="cW8-cU-m1p" firstAttribute="top" secondItem="Z1K-R7-qaO" secondAttribute="top" id="X7V-E8-yoK"/>
+                    <constraint firstItem="cW8-cU-m1p" firstAttribute="leading" secondItem="Z1K-R7-qaO" secondAttribute="leading" id="coP-Q3-kwi"/>
+                    <constraint firstItem="qLI-oR-jF3" firstAttribute="top" secondItem="Z1K-R7-qaO" secondAttribute="top" constant="10" id="gHt-80-Ia0"/>
+                    <constraint firstAttribute="bottom" secondItem="cW8-cU-m1p" secondAttribute="bottom" id="nty-ba-7cG"/>
+                    <constraint firstAttribute="trailing" secondItem="qLI-oR-jF3" secondAttribute="trailing" constant="8" id="phu-ac-u5J"/>
+                    <constraint firstItem="qLI-oR-jF3" firstAttribute="leading" secondItem="cW8-cU-m1p" secondAttribute="trailing" constant="8" id="vWJ-JM-dWw"/>
+                    <constraint firstAttribute="trailing" secondItem="gPs-Lg-7My" secondAttribute="trailing" constant="8" id="vxf-3v-7OB"/>
+                    <constraint firstItem="qLI-oR-jF3" firstAttribute="leading" secondItem="Z1K-R7-qaO" secondAttribute="leading" constant="8" id="y0y-54-LnR"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="y0y-54-LnR"/>
+                        <exclude reference="Ky6-yG-0wl"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="leftOffsetConstraint" destination="kwc-u4-4Wj" id="1Mg-5a-cEN"/>
+                <outlet property="leftOffsetView" destination="cW8-cU-m1p" id="VI4-cT-iuY"/>
+                <outlet property="userPrefixLabel" destination="qLI-oR-jF3" id="P4U-C2-87h"/>
+                <outlet property="usernameLabel" destination="gPs-Lg-7My" id="PGL-hC-Ejo"/>
+            </connections>
+            <point key="canvasLocation" x="319" y="335.5"/>
+        </tableViewCell>
+    </objects>
+</document>

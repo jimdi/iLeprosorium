@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7531" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="LepraCommentHeaderCell" rowHeight="72" id="n90-Z2-kcU" customClass="LepraCommentHeaderCell">
+            <rect key="frame" x="0.0" y="0.0" width="400" height="72"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="n90-Z2-kcU" id="fJb-gV-VI4">
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="User prefix text" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7x6-sy-Z5l">
+                        <rect key="frame" x="10" y="5" width="380" height="16"/>
+                        <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="13"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="odK-Jt-h4a">
+                        <rect key="frame" x="10" y="21" width="380" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="HFT-YW-qGJ"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="15"/>
+                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <state key="normal" title="Username">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="userNameButtonTap:" destination="n90-Z2-kcU" eventType="touchUpInside" id="lGI-py-j0B"/>
+                        </connections>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="dateLabel" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CSc-Db-eKR">
+                        <rect key="frame" x="326" y="51" width="64" height="16"/>
+                        <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="13"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Y0-Xh-pVl">
+                        <rect key="frame" x="0.0" y="0.0" width="0.0" height="72"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="width" id="QeV-GD-JWY"/>
+                        </constraints>
+                    </view>
+                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lPj-dU-WTR">
+                        <rect key="frame" x="10" y="51" width="57" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="16" id="tCf-Pg-BAS"/>
+                        </constraints>
+                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <state key="normal">
+                            <attributedString key="attributedTitle">
+                                <fragment content="Ответить">
+                                    <attributes>
+                                        <font key="NSFont" size="13" name="HelveticaNeue"/>
+                                        <integer key="NSUnderline" value="1"/>
+                                    </attributes>
+                                </fragment>
+                            </attributedString>
+                        </state>
+                        <connections>
+                            <action selector="answerButtonTap:" destination="n90-Z2-kcU" eventType="touchUpInside" id="1mS-k8-7Sw"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="odK-Jt-h4a" firstAttribute="top" secondItem="7x6-sy-Z5l" secondAttribute="bottom" id="6w4-yV-8KV"/>
+                    <constraint firstItem="7x6-sy-Z5l" firstAttribute="top" secondItem="fJb-gV-VI4" secondAttribute="top" constant="5" id="6xa-GO-86H"/>
+                    <constraint firstItem="0Y0-Xh-pVl" firstAttribute="top" secondItem="fJb-gV-VI4" secondAttribute="top" id="ADc-ux-Qoq"/>
+                    <constraint firstItem="7x6-sy-Z5l" firstAttribute="leading" secondItem="0Y0-Xh-pVl" secondAttribute="trailing" constant="10" id="Iqz-Mg-EJp"/>
+                    <constraint firstAttribute="trailing" secondItem="7x6-sy-Z5l" secondAttribute="trailing" constant="10" id="LMC-hU-21H"/>
+                    <constraint firstAttribute="bottom" secondItem="0Y0-Xh-pVl" secondAttribute="bottom" constant="-1" id="fqH-Tm-6Fg"/>
+                    <constraint firstItem="lPj-dU-WTR" firstAttribute="top" secondItem="odK-Jt-h4a" secondAttribute="bottom" id="h1n-7h-g7A"/>
+                    <constraint firstItem="lPj-dU-WTR" firstAttribute="leading" secondItem="0Y0-Xh-pVl" secondAttribute="trailing" constant="10" id="iAq-Pu-hje"/>
+                    <constraint firstItem="0Y0-Xh-pVl" firstAttribute="leading" secondItem="fJb-gV-VI4" secondAttribute="leading" id="k9D-rs-iON"/>
+                    <constraint firstAttribute="trailing" secondItem="CSc-Db-eKR" secondAttribute="trailing" constant="10" id="keS-93-aOZ"/>
+                    <constraint firstItem="odK-Jt-h4a" firstAttribute="leading" secondItem="0Y0-Xh-pVl" secondAttribute="trailing" constant="10" id="la2-Oe-RA0"/>
+                    <constraint firstAttribute="trailing" secondItem="odK-Jt-h4a" secondAttribute="trailing" constant="10" id="ons-VR-0xF"/>
+                    <constraint firstItem="CSc-Db-eKR" firstAttribute="top" secondItem="odK-Jt-h4a" secondAttribute="bottom" id="t0K-eX-wNs"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="answerButton" destination="lPj-dU-WTR" id="7Xt-NE-Gsp"/>
+                <outlet property="dateLabel" destination="CSc-Db-eKR" id="2oA-Uk-Dbc"/>
+                <outlet property="leftOffsetConstraint" destination="QeV-GD-JWY" id="w4d-bw-kzU"/>
+                <outlet property="leftOffsetView" destination="0Y0-Xh-pVl" id="zcQ-VO-tvd"/>
+                <outlet property="userNameButton" destination="odK-Jt-h4a" id="RcT-QE-RhC"/>
+                <outlet property="userPrefixLabel" destination="7x6-sy-Z5l" id="bgR-N3-ic8"/>
+            </connections>
+            <point key="canvasLocation" x="319" y="329"/>
+        </tableViewCell>
+    </objects>
+</document>

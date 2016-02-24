@@ -1,0 +1,1 @@
+../../../MGSwipeTabBarController/MGSwipeTabBarController/MGSwipeTabBarController.h

@@ -1,0 +1,1262 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		695AC9C868E39AB564848D80 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C4897D64C057D20AFF681C5A /* libPods.a */; };
+		C70520FA1A7F920B00D4D4E5 /* LepraUnderground.m in Sources */ = {isa = PBXBuildFile; fileRef = C70520F91A7F920B00D4D4E5 /* LepraUnderground.m */; };
+		C71435F31ACFFA0300C679A2 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C71435F21ACFFA0300C679A2 /* Crashlytics.framework */; };
+		C71524471A4D7E2D00E84D84 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C71524461A4D7E2D00E84D84 /* main.m */; };
+		C715244A1A4D7E2D00E84D84 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C71524491A4D7E2D00E84D84 /* AppDelegate.m */; };
+		C715244D1A4D7E2D00E84D84 /* Leprosorium.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C715244B1A4D7E2D00E84D84 /* Leprosorium.xcdatamodeld */; };
+		C71524531A4D7E2D00E84D84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C71524511A4D7E2D00E84D84 /* Main.storyboard */; };
+		C71524641A4D7E2D00E84D84 /* LeprosoriumTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C71524631A4D7E2D00E84D84 /* LeprosoriumTests.m */; };
+		C71524731A4D80A700E84D84 /* LepraCommonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C71524721A4D80A700E84D84 /* LepraCommonViewController.m */; };
+		C715247C1A4D814E00E84D84 /* LepraGeneralHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C715247B1A4D814E00E84D84 /* LepraGeneralHelper.m */; };
+		C71524841A4D828800E84D84 /* GTMNSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = C71524811A4D828800E84D84 /* GTMNSString+HTML.m */; };
+		C71524851A4D828800E84D84 /* NSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = C71524831A4D828800E84D84 /* NSString+HTML.m */; };
+		C71524891A4D846500E84D84 /* LepraCommonTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C71524881A4D846500E84D84 /* LepraCommonTableViewController.m */; };
+		C715248D1A4D84B900E84D84 /* LepraNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C715248C1A4D84B900E84D84 /* LepraNavigationController.m */; };
+		C71524911A4D850B00E84D84 /* LepraContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C71524901A4D850B00E84D84 /* LepraContainerViewController.m */; };
+		C71524961A4D85B300E84D84 /* LepraMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C71524951A4D85B300E84D84 /* LepraMenuViewController.m */; };
+		C715249E1A4D873E00E84D84 /* LepraCommonTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C715249D1A4D873E00E84D84 /* LepraCommonTableViewCell.m */; };
+		C71524A31A4D879D00E84D84 /* LepraMenuProfileCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C71524A21A4D879D00E84D84 /* LepraMenuProfileCell.m */; };
+		C71524A61A4D87AF00E84D84 /* LepraMenuElementCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C71524A51A4D87AF00E84D84 /* LepraMenuElementCell.m */; };
+		C71524AA1A4D897800E84D84 /* LepraLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C71524A91A4D897800E84D84 /* LepraLoginViewController.m */; };
+		C71524AE1A4D8BAC00E84D84 /* LepraLoginCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C71524AD1A4D8BAC00E84D84 /* LepraLoginCell.m */; };
+		C71524B31A4D8CB800E84D84 /* LepraDoneAccessoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = C71524B11A4D8CB800E84D84 /* LepraDoneAccessoryView.m */; };
+		C71524B41A4D8CB800E84D84 /* LepraDoneAccessoryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C71524B21A4D8CB800E84D84 /* LepraDoneAccessoryView.xib */; };
+		C71524B81A4D8ECA00E84D84 /* LepraBlancViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C71524B71A4D8ECA00E84D84 /* LepraBlancViewController.m */; };
+		C71524BC1A4D91B800E84D84 /* LepraHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = C71524BB1A4D91B800E84D84 /* LepraHTTPClient.m */; };
+		C71524C11A4D926500E84D84 /* LepraAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C71524C01A4D926500E84D84 /* LepraAPIManager.m */; };
+		C71F36CC1A765AFC00481305 /* LepraMenuGertrudaCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C71F36CB1A765AFC00481305 /* LepraMenuGertrudaCell.m */; };
+		C71F36CF1A76686C00481305 /* LepraMainPagePostsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C71F36CE1A76686C00481305 /* LepraMainPagePostsViewController.m */; };
+		C7222E311A767F3C00FE1B7F /* LepraUndergroundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7222E301A767F3C00FE1B7F /* LepraUndergroundViewController.m */; };
+		C7222E351A7680C800FE1B7F /* LepraUndergroundCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C7222E341A7680C800FE1B7F /* LepraUndergroundCell.m */; };
+		C72FADDC1B2EF40C00EFC5DA /* LepraCommentsPrefsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C72FADDB1B2EF40C00EFC5DA /* LepraCommentsPrefsViewController.m */; };
+		C74226C51A739F89008B7CC8 /* LepraPostFooterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C74226C41A739F89008B7CC8 /* LepraPostFooterCell.m */; };
+		C74226C91A73B084008B7CC8 /* LepraPostRatingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C74226C81A73B084008B7CC8 /* LepraPostRatingCell.m */; };
+		C74226CC1A73B44D008B7CC8 /* LepraLoadMoreView.m in Sources */ = {isa = PBXBuildFile; fileRef = C74226CB1A73B44D008B7CC8 /* LepraLoadMoreView.m */; };
+		C74226CF1A73B45E008B7CC8 /* LepraLoadMoreView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C74226CE1A73B45E008B7CC8 /* LepraLoadMoreView.xib */; };
+		C74226D11A73C3E4008B7CC8 /* LepraProfileUserTextCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C74226D01A73C3E4008B7CC8 /* LepraProfileUserTextCell.xib */; };
+		C74226D31A73C3F1008B7CC8 /* LepraProfileImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C74226D21A73C3F1008B7CC8 /* LepraProfileImageCell.xib */; };
+		C74226D51A73C541008B7CC8 /* LepraPostFooterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C74226D41A73C541008B7CC8 /* LepraPostFooterCell.xib */; };
+		C74226D71A73C54A008B7CC8 /* LepraPostRatingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C74226D61A73C54A008B7CC8 /* LepraPostRatingCell.xib */; };
+		C74226DA1A73C5AE008B7CC8 /* LepraProfileCommentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C74226D91A73C5AE008B7CC8 /* LepraProfileCommentsViewController.m */; };
+		C750D3461A727AA00064A457 /* LepraSwipeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C750D3451A727AA00064A457 /* LepraSwipeViewController.m */; };
+		C750D34A1A7285270064A457 /* LepraProfilePostsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C750D3491A7285270064A457 /* LepraProfilePostsViewController.m */; };
+		C754D7EE1A7EB9AB00FAE742 /* LepraCommentHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C754D7ED1A7EB9AB00FAE742 /* LepraCommentHeaderCell.m */; };
+		C754D7F01A7EB9B400FAE742 /* LepraCommentHeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C754D7EF1A7EB9B400FAE742 /* LepraCommentHeaderCell.xib */; };
+		C754D7F31A7EBEC900FAE742 /* LepraAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C754D7F21A7EBEC900FAE742 /* LepraAboutViewController.m */; };
+		C767DAF51A80DF1200312DFA /* LepraPrefsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C767DAF41A80DF1200312DFA /* LepraPrefsViewController.m */; };
+		C767DAF81A80DF9A00312DFA /* LepraPrefsToggleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C767DAF71A80DF9A00312DFA /* LepraPrefsToggleCell.m */; };
+		C767DAFC1A80DFAE00312DFA /* LepraPrefsDonateCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C767DAFB1A80DFAE00312DFA /* LepraPrefsDonateCell.m */; };
+		C767DB001A80E89300312DFA /* LepraWriteCommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C767DAFF1A80E89300312DFA /* LepraWriteCommentViewController.m */; };
+		C76DC1EB1AE3AC1900DAA235 /* LepraFeedPrefsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C76DC1EA1AE3AC1900DAA235 /* LepraFeedPrefsViewController.m */; };
+		C77B9F671B2234DB00ED49EF /* LepraNewLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C77B9F661B2234DB00ED49EF /* LepraNewLoginViewController.m */; };
+		C77B9F691B22374600ED49EF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C77B9F681B22374600ED49EF /* Images.xcassets */; };
+		C77B9F6C1B22D89B00ED49EF /* LepraPostUndergroundCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C77B9F6B1B22D89B00ED49EF /* LepraPostUndergroundCell.m */; };
+		C77B9F6E1B22D8A900ED49EF /* LepraPostUndergroundCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C77B9F6D1B22D8A900ED49EF /* LepraPostUndergroundCell.xib */; };
+		C77B9F7C1B2378D400ED49EF /* NSMutableArray+SWUtilityButtons.m in Sources */ = {isa = PBXBuildFile; fileRef = C77B9F711B2378D400ED49EF /* NSMutableArray+SWUtilityButtons.m */; };
+		C77B9F7D1B2378D400ED49EF /* SWCellScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = C77B9F731B2378D400ED49EF /* SWCellScrollView.m */; };
+		C77B9F7E1B2378D400ED49EF /* SWLongPressGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = C77B9F751B2378D400ED49EF /* SWLongPressGestureRecognizer.m */; };
+		C77B9F7F1B2378D400ED49EF /* SWTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C77B9F771B2378D400ED49EF /* SWTableViewCell.m */; };
+		C77B9F801B2378D400ED49EF /* SWUtilityButtonTapGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = C77B9F791B2378D400ED49EF /* SWUtilityButtonTapGestureRecognizer.m */; };
+		C77B9F811B2378D400ED49EF /* SWUtilityButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = C77B9F7B1B2378D400ED49EF /* SWUtilityButtonView.m */; };
+		C77D25841B639963001A8490 /* LepraFullPostCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C77D25831B639963001A8490 /* LepraFullPostCell.m */; };
+		C77D25861B639972001A8490 /* LepraFullPostCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C77D25851B639972001A8490 /* LepraFullPostCell.xib */; };
+		C77D25881B63AA4B001A8490 /* LepraCommentFullCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C77D25871B63AA4B001A8490 /* LepraCommentFullCell.xib */; };
+		C77D258B1B63AA5D001A8490 /* LepraCommentFullCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C77D258A1B63AA5D001A8490 /* LepraCommentFullCell.m */; };
+		C78DD3EC1A7B7DC000B3E382 /* LepraComment.m in Sources */ = {isa = PBXBuildFile; fileRef = C78DD3EB1A7B7DC000B3E382 /* LepraComment.m */; };
+		C78DD3EF1A7B855100B3E382 /* LepraPost.m in Sources */ = {isa = PBXBuildFile; fileRef = C78DD3EE1A7B855100B3E382 /* LepraPost.m */; };
+		C78DD3F21A7B899C00B3E382 /* LepraFavoritesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C78DD3F11A7B899C00B3E382 /* LepraFavoritesViewController.m */; };
+		C78DD3F61A7B926B00B3E382 /* LepraMyThingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C78DD3F51A7B926B00B3E382 /* LepraMyThingsViewController.m */; };
+		C78DD3FA1A7B966000B3E382 /* LepraInboxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C78DD3F91A7B966000B3E382 /* LepraInboxViewController.m */; };
+		C797EEB51A63A6C9008B9DB0 /* LepraProfileImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C797EEB41A63A6C9008B9DB0 /* LepraProfileImageCell.m */; };
+		C7A2EE491A73CB94002717C2 /* LepraPostDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A2EE481A73CB94002717C2 /* LepraPostDetailViewController.m */; };
+		C7A2EE4D1A73CF41002717C2 /* LepraPostDetailCommentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A2EE4C1A73CF41002717C2 /* LepraPostDetailCommentsViewController.m */; };
+		C7B63DF51AEA4BA8009D49C8 /* LepraMenuHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B63DF41AEA4BA8009D49C8 /* LepraMenuHeaderCell.m */; };
+		C7BDAEFF1A6160B700BE3F27 /* LepraProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7BDAEFE1A6160B700BE3F27 /* LepraProfileViewController.m */; };
+		C7BDAF031A616E7900BE3F27 /* LepraProfileInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C7BDAF021A616E7900BE3F27 /* LepraProfileInfoCell.m */; };
+		C7BDAF061A616E8C00BE3F27 /* LepraProfileContactCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C7BDAF051A616E8C00BE3F27 /* LepraProfileContactCell.m */; };
+		C7BDAF091A616E9900BE3F27 /* LepraProfileUserTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C7BDAF081A616E9900BE3F27 /* LepraProfileUserTextCell.m */; };
+		C7D8A1451A7CCF0600F984A4 /* LepraProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = C7D8A1441A7CCF0600F984A4 /* LepraProfile.m */; };
+		C7E23D8C1A7E4FC00000BA58 /* LepraPostHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E23D8B1A7E4FC00000BA58 /* LepraPostHeaderCell.m */; };
+		C7E23D8E1A7E4FCF0000BA58 /* LepraPostHeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7E23D8D1A7E4FCF0000BA58 /* LepraPostHeaderCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C715245E1A4D7E2D00E84D84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C71524391A4D7E2D00E84D84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C71524401A4D7E2D00E84D84;
+			remoteInfo = Leprosorium;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E44FB9CD9E8D8F14F934E7F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		C4897D64C057D20AFF681C5A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C70520F81A7F920B00D4D4E5 /* LepraUnderground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LepraUnderground.h; sourceTree = "<group>"; };
+		C70520F91A7F920B00D4D4E5 /* LepraUnderground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LepraUnderground.m; sourceTree = "<group>"; };
+		C71435F21ACFFA0300C679A2 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
+		C71524411A4D7E2D00E84D84 /* Leprosorium.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Leprosorium.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C71524451A4D7E2D00E84D84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C71524461A4D7E2D00E84D84 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C71524481A4D7E2D00E84D84 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C71524491A4D7E2D00E84D84 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C715244C1A4D7E2D00E84D84 /* Leprosorium.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Leprosorium.xcdatamodel; sourceTree = "<group>"; };
+		C71524521A4D7E2D00E84D84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C715245D1A4D7E2D00E84D84 /* LeprosoriumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeprosoriumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C71524621A4D7E2D00E84D84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C71524631A4D7E2D00E84D84 /* LeprosoriumTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeprosoriumTests.m; sourceTree = "<group>"; };
+		C71524711A4D80A700E84D84 /* LepraCommonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LepraCommonViewController.h; sourceTree = "<group>"; };
+		C71524721A4D80A700E84D84 /* LepraCommonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LepraCommonViewController.m; sourceTree = "<group>"; };
+		C715247A1A4D814E00E84D84 /* LepraGeneralHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LepraGeneralHelper.h; sourceTree = "<group>"; };
+		C715247B1A4D814E00E84D84 /* LepraGeneralHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LepraGeneralHelper.m; sourceTree = "<group>"; };
+		C715247F1A4D828800E84D84 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		C71524801A4D828800E84D84 /* GTMNSString+HTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GTMNSString+HTML.h"; sourceTree = "<group>"; };
+		C71524811A4D828800E84D84 /* GTMNSString+HTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMNSString+HTML.m"; sourceTree = "<group>"; };
+		C71524821A4D828800E84D84 /* NSString+HTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HTML.h"; sourceTree = "<group>"; };
+		C71524831A4D828800E84D84 /* NSString+HTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HTML.m"; sourceTree = "<group>"; };
+		C71524861A4D830900E84D84 /* Leprosorium-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Leprosorium-Prefix.pch"; sourceTree = "<group>"; };
+		C71524871A4D846500E84D84 /* LepraCommonTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LepraCommonTableViewController.h; sourceTree = "<group>"; };
+		C71524881A4D846500E84D84 /* LepraCommonTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LepraCommonTableViewController.m; sourceTree = "<group>"; };
+		C715248B1A4D84B900E84D84 /* LepraNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LepraNavigationController.h; sourceTree = "<group>"; };
+		C715248C1A4D84B900E84D84 /* LepraNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LepraNavigationController.m; sourceTree = "<group>"; };
+		C715248F1A4D850B00E84D84 /* LepraContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LepraContainerViewController.h; sourceTree = "<group>"; };
+		C71524901A4D850B00E84D84 /* LepraContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LepraContainerViewController.m; sourceTree = "<group>"; };
+		C71524941A4D85B300E84D84 /* LepraMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LepraMenuViewController.h; sourceTree = "<group>"; };
+		C71524951A4D85B300E84D84 /* LepraMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LepraMenuViewController.m; sourceTree = "<group>"; };
+		C715249C1A4D873E00E84D84 /* LepraCommonTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LepraCommonTableViewCell.h; sourceTree = "<group>"; };
+		C715249D1A4D873E00E84D84 /* LepraCommonTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LepraCommonTableViewCell.m; sourceTree = "<group>"; };
+		C71524A11A4D879D00E84D84 /* LepraMenuProfileCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LepraMenuProfileCell.h; sourceTree = "<group>"; };
+		C71524A21A4D879D00E84D84 /* LepraMenuProfileCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LepraMenuProfileCell.m; sourceTree = "<group>"; };
+		C71524A41A4D87AF00E84D84 /* LepraMenuElementCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LepraMenuElementCell.h; sourceTree = "<group>"; };
+		C71524A51A4D87AF00E84D84 /* LepraMenuElementCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LepraMenuElementCell.m; sourceTree = "<group>"; };
+		C71524A81A4D897800E84D84 /* LepraLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LepraLoginViewController.h; sourceTree = "<group>"; };
+		C71524A91A4D897800E84D84 /* LepraLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LepraLoginViewController.m; sourceTree = "<group>"; };
+		C71524AC1A4D8BAC00E84D84 /* LepraLoginCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LepraLoginCell.h; sourceTree = "<group>"; };
+		C71524AD1A4D8BAC00E84D84 /* LepraLoginCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LepraLoginCell.m; sourceTree = "<group>"; };
+		C71524B01A4D8CB800E84D84 /* LepraDoneAccessoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LepraDoneAccessoryView.h; sourceTree = "<group>"; };
+		C71524B11A4D8CB800E84D84 /* LepraDoneAccessoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LepraDoneAccessoryView.m; sourceTree = "<group>"; };
+		C71524B21A4D8CB800E84D84 /* LepraDoneAccessoryView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LepraDoneAccessoryView.xib; sourceTree = "<group>"; };
+		C71524B61A4D8ECA00E84D84 /* LepraBlancViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LepraBlancViewController.h; sourceTree = "<group>"; };
+		C71524B71A4D8ECA00E84D84 /* LepraBlancViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LepraBlancViewController.m; sourceTree = "<group>"; };
+		C71524BA1A4D91B800E84D84 /* LepraHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LepraHTTPClient.h; sourceTree = "<group>"; };
+		C71524BB1A4D91B800E84D84 /* LepraHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LepraHTTPClient.m; sourceTree = "<group>"; };
+		C71524BF1A4D926500E84D84 /* LepraAPIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LepraAPIManager.h; sourceTree = "<group>"; };
+		C71524C01A4D926500E84D84 /* LepraAPIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LepraAPIManager.m; sourceTree = "<group>"; };
+		C71F36CA1A765AFC00481305 /* LepraMenuGertrudaCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LepraMenuGertrudaCell.h; sourceTree = "<group>"; };
+		C71F36CB1A765AFC00481305 /* LepraMenuGertrudaCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LepraMenuGertrudaCell.m; sourceTree = "<group>"; };
+		C71F36CD1A76686C00481305 /* LepraMainPagePostsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LepraMainPagePostsViewController.h; sourceTree = "<group>"; };
+		C71F36CE1A76686C00481305 /* LepraMainPagePostsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LepraMainPagePostsViewController.m; sourceTree = "<group>"; };
+		C7222E2F1A767F3C00FE1B7F /* LepraUndergroundViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LepraUndergroundViewController.h; sourceTree = "<group>"; };
+		C7222E301A767F3C00FE1B7F /* LepraUndergroundViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LepraUndergroundViewController.m; sourceTree = "<group>"; };
+		C7222E331A7680C800FE1B7F /* LepraUndergroundCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LepraUndergroundCell.h; sourceTree = "<group>"; };
+		C7222E341A7680C800FE1B7F /* LepraUndergroundCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LepraUndergroundCell.m; sourceTree = "<group>"; };
+		C72FADDA1B2EF40C00EFC5DA /* LepraCommentsPrefsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LepraCommentsPrefsViewController.h; sourceTree = "<group>"; };
+		C72FADDB1B2EF40C00EFC5DA /* LepraCommentsPrefsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LepraCommentsPrefsViewController.m; sourceTree = "<group>"; };
+		C74226C31A739F89008B7CC8 /* LepraPostFooterCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LepraPostFooterCell.h; sourceTree = "<group>"; };
+		C74226C41A739F89008B7CC8 /* LepraPostFooterCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LepraPostFooterCell.m; sourceTree = "<group>"; };
+		C74226C71A73B084008B7CC8 /* LepraPostRatingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LepraPostRatingCell.h; sourceTree = "<group>"; };
+		C74226C81A73B084008B7CC8 /* LepraPostRatingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LepraPostRatingCell.m; sourceTree = "<group>"; };
+		C74226CA1A73B44D008B7CC8 /* LepraLoadMoreView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LepraLoadMoreView.h; sourceTree = "<group>"; };
+		C74226CB1A73B44D008B7CC8 /* LepraLoadMoreView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LepraLoadMoreView.m; sourceTree = "<group>"; };
+		C74226CE1A73B45E008B7CC8 /* LepraLoadMoreView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LepraLoadMoreView.xib; sourceTree = "<group>"; };
+		C74226D01A73C3E4008B7CC8 /* LepraProfileUserTextCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LepraProfileUserTextCell.xib; sourceTree = "<group>"; };
+		C74226D21A73C3F1008B7CC8 /* LepraProfileImageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LepraProfileImageCell.xib; sourceTree = "<group>"; };
+		C74226D41A73C541008B7CC8 /* LepraPostFooterCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LepraPostFooterCell.xib; sourceTree = "<group>"; };
+		C74226D61A73C54A008B7CC8 /* LepraPostRatingCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LepraPostRatingCell.xib; sourceTree = "<group>"; };
+		C74226D81A73C5AE008B7CC8 /* LepraProfileCommentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LepraProfileCommentsViewController.h; sourceTree = "<group>"; };
+		C74226D91A73C5AE008B7CC8 /* LepraProfileCommentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LepraProfileCommentsViewController.m; sourceTree = "<group>"; };
+		C750D3441A727AA00064A457 /* LepraSwipeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LepraSwipeViewController.h; sourceTree = "<group>"; };
+		C750D3451A727AA00064A457 /* LepraSwipeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LepraSwipeViewController.m; sourceTree = "<group>"; };
+		C750D3481A7285270064A457 /* LepraProfilePostsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LepraProfilePostsViewController.h; sourceTree = "<group>"; };
+		C750D3491A7285270064A457 /* LepraProfilePostsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LepraProfilePostsViewController.m; sourceTree = "<group>"; };
+		C754D7EC1A7EB9AA00FAE742 /* LepraCommentHeaderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LepraCommentHeaderCell.h; sourceTree = "<group>"; };
+		C754D7ED1A7EB9AB00FAE742 /* LepraCommentHeaderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LepraCommentHeaderCell.m; sourceTree = "<group>"; };
+		C754D7EF1A7EB9B400FAE742 /* LepraCommentHeaderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LepraCommentHeaderCell.xib; sourceTree = "<group>"; };
+		C754D7F11A7EBEC900FAE742 /* LepraAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LepraAboutViewController.h; sourceTree = "<group>"; };
+		C754D7F21A7EBEC900FAE742 /* LepraAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LepraAboutViewController.m; sourceTree = "<group>"; };
+		C767DAF31A80DF1200312DFA /* LepraPrefsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LepraPrefsViewController.h; sourceTree = "<group>"; };
+		C767DAF41A80DF1200312DFA /* LepraPrefsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LepraPrefsViewController.m; sourceTree = "<group>"; };
+		C767DAF61A80DF9A00312DFA /* LepraPrefsToggleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LepraPrefsToggleCell.h; sourceTree = "<group>"; };
+		C767DAF71A80DF9A00312DFA /* LepraPrefsToggleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LepraPrefsToggleCell.m; sourceTree = "<group>"; };
+		C767DAFA1A80DFAE00312DFA /* LepraPrefsDonateCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LepraPrefsDonateCell.h; sourceTree = "<group>"; };
+		C767DAFB1A80DFAE00312DFA /* LepraPrefsDonateCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LepraPrefsDonateCell.m; sourceTree = "<group>"; };
+		C767DAFE1A80E89300312DFA /* LepraWriteCommentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LepraWriteCommentViewController.h; sourceTree = "<group>"; };
+		C767DAFF1A80E89300312DFA /* LepraWriteCommentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LepraWriteCommentViewController.m; sourceTree = "<group>"; };
+		C76DC1E91AE3AC1900DAA235 /* LepraFeedPrefsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LepraFeedPrefsViewController.h; sourceTree = "<group>"; };
+		C76DC1EA1AE3AC1900DAA235 /* LepraFeedPrefsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LepraFeedPrefsViewController.m; sourceTree = "<group>"; };
+		C77B9F651B2234DB00ED49EF /* LepraNewLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LepraNewLoginViewController.h; sourceTree = "<group>"; };
+		C77B9F661B2234DB00ED49EF /* LepraNewLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LepraNewLoginViewController.m; sourceTree = "<group>"; };
+		C77B9F681B22374600ED49EF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C77B9F6A1B22D89B00ED49EF /* LepraPostUndergroundCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LepraPostUndergroundCell.h; sourceTree = "<group>"; };
+		C77B9F6B1B22D89B00ED49EF /* LepraPostUndergroundCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LepraPostUndergroundCell.m; sourceTree = "<group>"; };
+		C77B9F6D1B22D8A900ED49EF /* LepraPostUndergroundCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LepraPostUndergroundCell.xib; sourceTree = "<group>"; };
+		C77B9F701B2378D400ED49EF /* NSMutableArray+SWUtilityButtons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+SWUtilityButtons.h"; sourceTree = "<group>"; };
+		C77B9F711B2378D400ED49EF /* NSMutableArray+SWUtilityButtons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+SWUtilityButtons.m"; sourceTree = "<group>"; };
+		C77B9F721B2378D400ED49EF /* SWCellScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWCellScrollView.h; sourceTree = "<group>"; };
+		C77B9F731B2378D400ED49EF /* SWCellScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWCellScrollView.m; sourceTree = "<group>"; };
+		C77B9F741B2378D400ED49EF /* SWLongPressGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWLongPressGestureRecognizer.h; sourceTree = "<group>"; };
+		C77B9F751B2378D400ED49EF /* SWLongPressGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWLongPressGestureRecognizer.m; sourceTree = "<group>"; };
+		C77B9F761B2378D400ED49EF /* SWTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWTableViewCell.h; sourceTree = "<group>"; };
+		C77B9F771B2378D400ED49EF /* SWTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWTableViewCell.m; sourceTree = "<group>"; };
+		C77B9F781B2378D400ED49EF /* SWUtilityButtonTapGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWUtilityButtonTapGestureRecognizer.h; sourceTree = "<group>"; };
+		C77B9F791B2378D400ED49EF /* SWUtilityButtonTapGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWUtilityButtonTapGestureRecognizer.m; sourceTree = "<group>"; };
+		C77B9F7A1B2378D400ED49EF /* SWUtilityButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWUtilityButtonView.h; sourceTree = "<group>"; };
+		C77B9F7B1B2378D400ED49EF /* SWUtilityButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWUtilityButtonView.m; sourceTree = "<group>"; };
+		C77D25821B639963001A8490 /* LepraFullPostCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LepraFullPostCell.h; sourceTree = "<group>"; };
+		C77D25831B639963001A8490 /* LepraFullPostCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LepraFullPostCell.m; sourceTree = "<group>"; };
+		C77D25851B639972001A8490 /* LepraFullPostCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LepraFullPostCell.xib; sourceTree = "<group>"; };
+		C77D25871B63AA4B001A8490 /* LepraCommentFullCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LepraCommentFullCell.xib; sourceTree = "<group>"; };
+		C77D25891B63AA5D001A8490 /* LepraCommentFullCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LepraCommentFullCell.h; sourceTree = "<group>"; };
+		C77D258A1B63AA5D001A8490 /* LepraCommentFullCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LepraCommentFullCell.m; sourceTree = "<group>"; };
+		C78DD3EA1A7B7DC000B3E382 /* LepraComment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LepraComment.h; sourceTree = "<group>"; };
+		C78DD3EB1A7B7DC000B3E382 /* LepraComment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LepraComment.m; sourceTree = "<group>"; };
+		C78DD3ED1A7B855100B3E382 /* LepraPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LepraPost.h; sourceTree = "<group>"; };
+		C78DD3EE1A7B855100B3E382 /* LepraPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LepraPost.m; sourceTree = "<group>"; };
+		C78DD3F01A7B899C00B3E382 /* LepraFavoritesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LepraFavoritesViewController.h; sourceTree = "<group>"; };
+		C78DD3F11A7B899C00B3E382 /* LepraFavoritesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LepraFavoritesViewController.m; sourceTree = "<group>"; };
+		C78DD3F41A7B926B00B3E382 /* LepraMyThingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LepraMyThingsViewController.h; sourceTree = "<group>"; };
+		C78DD3F51A7B926B00B3E382 /* LepraMyThingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LepraMyThingsViewController.m; sourceTree = "<group>"; };
+		C78DD3F81A7B966000B3E382 /* LepraInboxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LepraInboxViewController.h; sourceTree = "<group>"; };
+		C78DD3F91A7B966000B3E382 /* LepraInboxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LepraInboxViewController.m; sourceTree = "<group>"; };
+		C797EEB31A63A6C9008B9DB0 /* LepraProfileImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LepraProfileImageCell.h; sourceTree = "<group>"; };
+		C797EEB41A63A6C9008B9DB0 /* LepraProfileImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LepraProfileImageCell.m; sourceTree = "<group>"; };
+		C7A2EE471A73CB94002717C2 /* LepraPostDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LepraPostDetailViewController.h; sourceTree = "<group>"; };
+		C7A2EE481A73CB94002717C2 /* LepraPostDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LepraPostDetailViewController.m; sourceTree = "<group>"; };
+		C7A2EE4B1A73CF41002717C2 /* LepraPostDetailCommentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LepraPostDetailCommentsViewController.h; sourceTree = "<group>"; };
+		C7A2EE4C1A73CF41002717C2 /* LepraPostDetailCommentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LepraPostDetailCommentsViewController.m; sourceTree = "<group>"; };
+		C7B63DF31AEA4BA8009D49C8 /* LepraMenuHeaderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LepraMenuHeaderCell.h; sourceTree = "<group>"; };
+		C7B63DF41AEA4BA8009D49C8 /* LepraMenuHeaderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LepraMenuHeaderCell.m; sourceTree = "<group>"; };
+		C7BDAEFD1A6160B700BE3F27 /* LepraProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LepraProfileViewController.h; sourceTree = "<group>"; };
+		C7BDAEFE1A6160B700BE3F27 /* LepraProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LepraProfileViewController.m; sourceTree = "<group>"; };
+		C7BDAF011A616E7900BE3F27 /* LepraProfileInfoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LepraProfileInfoCell.h; sourceTree = "<group>"; };
+		C7BDAF021A616E7900BE3F27 /* LepraProfileInfoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LepraProfileInfoCell.m; sourceTree = "<group>"; };
+		C7BDAF041A616E8C00BE3F27 /* LepraProfileContactCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LepraProfileContactCell.h; sourceTree = "<group>"; };
+		C7BDAF051A616E8C00BE3F27 /* LepraProfileContactCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LepraProfileContactCell.m; sourceTree = "<group>"; };
+		C7BDAF071A616E9900BE3F27 /* LepraProfileUserTextCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LepraProfileUserTextCell.h; sourceTree = "<group>"; };
+		C7BDAF081A616E9900BE3F27 /* LepraProfileUserTextCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LepraProfileUserTextCell.m; sourceTree = "<group>"; };
+		C7D8A1431A7CCF0600F984A4 /* LepraProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LepraProfile.h; sourceTree = "<group>"; };
+		C7D8A1441A7CCF0600F984A4 /* LepraProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LepraProfile.m; sourceTree = "<group>"; };
+		C7E23D8A1A7E4FC00000BA58 /* LepraPostHeaderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LepraPostHeaderCell.h; sourceTree = "<group>"; };
+		C7E23D8B1A7E4FC00000BA58 /* LepraPostHeaderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LepraPostHeaderCell.m; sourceTree = "<group>"; };
+		C7E23D8D1A7E4FCF0000BA58 /* LepraPostHeaderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LepraPostHeaderCell.xib; sourceTree = "<group>"; };
+		F289D5ADE9027CD2BC1A1286 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C715243E1A4D7E2D00E84D84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C71435F31ACFFA0300C679A2 /* Crashlytics.framework in Frameworks */,
+				695AC9C868E39AB564848D80 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C715245A1A4D7E2D00E84D84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A3661E6332918097844BEE4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F289D5ADE9027CD2BC1A1286 /* Pods.debug.xcconfig */,
+				1E44FB9CD9E8D8F14F934E7F /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B92518ED041793E4F749F2CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C71435F21ACFFA0300C679A2 /* Crashlytics.framework */,
+				C4897D64C057D20AFF681C5A /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C71524381A4D7E2D00E84D84 = {
+			isa = PBXGroup;
+			children = (
+				C71524431A4D7E2D00E84D84 /* Leprosorium */,
+				C71524601A4D7E2D00E84D84 /* LeprosoriumTests */,
+				C71524421A4D7E2D00E84D84 /* Products */,
+				3A3661E6332918097844BEE4 /* Pods */,
+				B92518ED041793E4F749F2CE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C71524421A4D7E2D00E84D84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C71524411A4D7E2D00E84D84 /* Leprosorium.app */,
+				C715245D1A4D7E2D00E84D84 /* LeprosoriumTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C71524431A4D7E2D00E84D84 /* Leprosorium */ = {
+			isa = PBXGroup;
+			children = (
+				C71524481A4D7E2D00E84D84 /* AppDelegate.h */,
+				C71524491A4D7E2D00E84D84 /* AppDelegate.m */,
+				C715249B1A4D873E00E84D84 /* Views */,
+				C78DD3E91A7B7DC000B3E382 /* Model */,
+				C71524791A4D814E00E84D84 /* Helpers */,
+				C71524701A4D80A700E84D84 /* Controllers */,
+				C71524741A4D80B000E84D84 /* Resources */,
+				C715244B1A4D7E2D00E84D84 /* Leprosorium.xcdatamodeld */,
+				C71524441A4D7E2D00E84D84 /* Supporting Files */,
+			);
+			path = Leprosorium;
+			sourceTree = "<group>";
+		};
+		C71524441A4D7E2D00E84D84 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C71524451A4D7E2D00E84D84 /* Info.plist */,
+				C71524861A4D830900E84D84 /* Leprosorium-Prefix.pch */,
+				C71524461A4D7E2D00E84D84 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C71524601A4D7E2D00E84D84 /* LeprosoriumTests */ = {
+			isa = PBXGroup;
+			children = (
+				C71524631A4D7E2D00E84D84 /* LeprosoriumTests.m */,
+				C71524611A4D7E2D00E84D84 /* Supporting Files */,
+			);
+			path = LeprosoriumTests;
+			sourceTree = "<group>";
+		};
+		C71524611A4D7E2D00E84D84 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C71524621A4D7E2D00E84D84 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C71524701A4D80A700E84D84 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C71524931A4D859700E84D84 /* Common / Container */,
+				C71524971A4D85B900E84D84 /* Menu */,
+				C71524AB1A4D897C00E84D84 /* Login */,
+				C71524B91A4D8ECD00E84D84 /* Blanc */,
+				C7BDAF001A6160BB00BE3F27 /* Profile */,
+				C7A2EE4A1A73CB97002717C2 /* Post detail */,
+				C71F36D01A76686F00481305 /* Main page */,
+				C7222E321A767F3E00FE1B7F /* Underground */,
+				C78DD3F31A7B89A000B3E382 /* Favorites */,
+				C78DD3F71A7B927100B3E382 /* My things */,
+				C78DD3FB1A7B966A00B3E382 /* Inbox */,
+				C754D7F41A7EC8D200FAE742 /* About */,
+				C767DAFD1A80E0B900312DFA /* Prefs */,
+				C76DC1EC1AE3AC1F00DAA235 /* Feed prefs */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C71524741A4D80B000E84D84 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C77B9F681B22374600ED49EF /* Images.xcassets */,
+				C71524511A4D7E2D00E84D84 /* Main.storyboard */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C71524751A4D80BD00E84D84 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				C71524711A4D80A700E84D84 /* LepraCommonViewController.h */,
+				C71524721A4D80A700E84D84 /* LepraCommonViewController.m */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		C71524791A4D814E00E84D84 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				C77B9F6F1B2378D400ED49EF /* SWTableViewCell */,
+				C715247E1A4D828800E84D84 /* GTMNSString-HTML-master */,
+				C715247D1A4D815800E84D84 /* General */,
+				C71524BD1A4D91C100E84D84 /* API */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		C715247D1A4D815800E84D84 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				C715247A1A4D814E00E84D84 /* LepraGeneralHelper.h */,
+				C715247B1A4D814E00E84D84 /* LepraGeneralHelper.m */,
+			);
+			name = General;
+			sourceTree = "<group>";
+		};
+		C715247E1A4D828800E84D84 /* GTMNSString-HTML-master */ = {
+			isa = PBXGroup;
+			children = (
+				C715247F1A4D828800E84D84 /* GTMDefines.h */,
+				C71524801A4D828800E84D84 /* GTMNSString+HTML.h */,
+				C71524811A4D828800E84D84 /* GTMNSString+HTML.m */,
+				C71524821A4D828800E84D84 /* NSString+HTML.h */,
+				C71524831A4D828800E84D84 /* NSString+HTML.m */,
+			);
+			path = "GTMNSString-HTML-master";
+			sourceTree = "<group>";
+		};
+		C715248A1A4D846900E84D84 /* Common Table */ = {
+			isa = PBXGroup;
+			children = (
+				C71524871A4D846500E84D84 /* LepraCommonTableViewController.h */,
+				C71524881A4D846500E84D84 /* LepraCommonTableViewController.m */,
+			);
+			name = "Common Table";
+			sourceTree = "<group>";
+		};
+		C715248E1A4D84BF00E84D84 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				C715248B1A4D84B900E84D84 /* LepraNavigationController.h */,
+				C715248C1A4D84B900E84D84 /* LepraNavigationController.m */,
+			);
+			name = Navigation;
+			sourceTree = "<group>";
+		};
+		C71524921A4D850E00E84D84 /* Container */ = {
+			isa = PBXGroup;
+			children = (
+				C715248F1A4D850B00E84D84 /* LepraContainerViewController.h */,
+				C71524901A4D850B00E84D84 /* LepraContainerViewController.m */,
+			);
+			name = Container;
+			sourceTree = "<group>";
+		};
+		C71524931A4D859700E84D84 /* Common / Container */ = {
+			isa = PBXGroup;
+			children = (
+				C71524751A4D80BD00E84D84 /* Common */,
+				C715248A1A4D846900E84D84 /* Common Table */,
+				C715248E1A4D84BF00E84D84 /* Navigation */,
+				C71524921A4D850E00E84D84 /* Container */,
+				C750D3471A727AA40064A457 /* Swipe */,
+			);
+			name = "Common / Container";
+			sourceTree = "<group>";
+		};
+		C71524971A4D85B900E84D84 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				C71524941A4D85B300E84D84 /* LepraMenuViewController.h */,
+				C71524951A4D85B300E84D84 /* LepraMenuViewController.m */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+		C715249B1A4D873E00E84D84 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C71524B51A4D8CBE00E84D84 /* Done accessory */,
+				C715249F1A4D874400E84D84 /* TV Cells */,
+				C74226CD1A73B450008B7CC8 /* Load more */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C715249F1A4D874400E84D84 /* TV Cells */ = {
+			isa = PBXGroup;
+			children = (
+				C71524A01A4D874F00E84D84 /* Common */,
+				C71524A71A4D87B400E84D84 /* Menu */,
+				C71524AF1A4D8BAF00E84D84 /* Login */,
+				C7BDAF0A1A616E9E00BE3F27 /* Profile */,
+				C74226C61A739F8E008B7CC8 /* Post */,
+				C7222E361A7680CB00FE1B7F /* Underground */,
+				C767DAF91A80DF9E00312DFA /* Prefs */,
+			);
+			name = "TV Cells";
+			sourceTree = "<group>";
+		};
+		C71524A01A4D874F00E84D84 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				C715249C1A4D873E00E84D84 /* LepraCommonTableViewCell.h */,
+				C715249D1A4D873E00E84D84 /* LepraCommonTableViewCell.m */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		C71524A71A4D87B400E84D84 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				C71524A11A4D879D00E84D84 /* LepraMenuProfileCell.h */,
+				C71524A21A4D879D00E84D84 /* LepraMenuProfileCell.m */,
+				C71524A41A4D87AF00E84D84 /* LepraMenuElementCell.h */,
+				C71524A51A4D87AF00E84D84 /* LepraMenuElementCell.m */,
+				C71F36CA1A765AFC00481305 /* LepraMenuGertrudaCell.h */,
+				C71F36CB1A765AFC00481305 /* LepraMenuGertrudaCell.m */,
+				C7B63DF31AEA4BA8009D49C8 /* LepraMenuHeaderCell.h */,
+				C7B63DF41AEA4BA8009D49C8 /* LepraMenuHeaderCell.m */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+		C71524AB1A4D897C00E84D84 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				C71524A81A4D897800E84D84 /* LepraLoginViewController.h */,
+				C71524A91A4D897800E84D84 /* LepraLoginViewController.m */,
+				C77B9F651B2234DB00ED49EF /* LepraNewLoginViewController.h */,
+				C77B9F661B2234DB00ED49EF /* LepraNewLoginViewController.m */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		C71524AF1A4D8BAF00E84D84 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				C71524AC1A4D8BAC00E84D84 /* LepraLoginCell.h */,
+				C71524AD1A4D8BAC00E84D84 /* LepraLoginCell.m */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		C71524B51A4D8CBE00E84D84 /* Done accessory */ = {
+			isa = PBXGroup;
+			children = (
+				C71524B01A4D8CB800E84D84 /* LepraDoneAccessoryView.h */,
+				C71524B11A4D8CB800E84D84 /* LepraDoneAccessoryView.m */,
+				C71524B21A4D8CB800E84D84 /* LepraDoneAccessoryView.xib */,
+			);
+			name = "Done accessory";
+			sourceTree = "<group>";
+		};
+		C71524B91A4D8ECD00E84D84 /* Blanc */ = {
+			isa = PBXGroup;
+			children = (
+				C71524B61A4D8ECA00E84D84 /* LepraBlancViewController.h */,
+				C71524B71A4D8ECA00E84D84 /* LepraBlancViewController.m */,
+			);
+			name = Blanc;
+			sourceTree = "<group>";
+		};
+		C71524BD1A4D91C100E84D84 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				C71524BE1A4D91C700E84D84 /* Client */,
+				C71524C21A4D926900E84D84 /* Manager */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		C71524BE1A4D91C700E84D84 /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				C71524BA1A4D91B800E84D84 /* LepraHTTPClient.h */,
+				C71524BB1A4D91B800E84D84 /* LepraHTTPClient.m */,
+			);
+			name = Client;
+			sourceTree = "<group>";
+		};
+		C71524C21A4D926900E84D84 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				C71524BF1A4D926500E84D84 /* LepraAPIManager.h */,
+				C71524C01A4D926500E84D84 /* LepraAPIManager.m */,
+			);
+			name = Manager;
+			sourceTree = "<group>";
+		};
+		C71F36D01A76686F00481305 /* Main page */ = {
+			isa = PBXGroup;
+			children = (
+				C71F36CD1A76686C00481305 /* LepraMainPagePostsViewController.h */,
+				C71F36CE1A76686C00481305 /* LepraMainPagePostsViewController.m */,
+			);
+			name = "Main page";
+			sourceTree = "<group>";
+		};
+		C7222E321A767F3E00FE1B7F /* Underground */ = {
+			isa = PBXGroup;
+			children = (
+				C7222E2F1A767F3C00FE1B7F /* LepraUndergroundViewController.h */,
+				C7222E301A767F3C00FE1B7F /* LepraUndergroundViewController.m */,
+			);
+			name = Underground;
+			sourceTree = "<group>";
+		};
+		C7222E361A7680CB00FE1B7F /* Underground */ = {
+			isa = PBXGroup;
+			children = (
+				C7222E331A7680C800FE1B7F /* LepraUndergroundCell.h */,
+				C7222E341A7680C800FE1B7F /* LepraUndergroundCell.m */,
+			);
+			name = Underground;
+			sourceTree = "<group>";
+		};
+		C74226C61A739F8E008B7CC8 /* Post */ = {
+			isa = PBXGroup;
+			children = (
+				C74226C31A739F89008B7CC8 /* LepraPostFooterCell.h */,
+				C74226C41A739F89008B7CC8 /* LepraPostFooterCell.m */,
+				C74226D41A73C541008B7CC8 /* LepraPostFooterCell.xib */,
+				C74226C71A73B084008B7CC8 /* LepraPostRatingCell.h */,
+				C74226C81A73B084008B7CC8 /* LepraPostRatingCell.m */,
+				C74226D61A73C54A008B7CC8 /* LepraPostRatingCell.xib */,
+				C7E23D8A1A7E4FC00000BA58 /* LepraPostHeaderCell.h */,
+				C7E23D8B1A7E4FC00000BA58 /* LepraPostHeaderCell.m */,
+				C7E23D8D1A7E4FCF0000BA58 /* LepraPostHeaderCell.xib */,
+				C77B9F6A1B22D89B00ED49EF /* LepraPostUndergroundCell.h */,
+				C77B9F6B1B22D89B00ED49EF /* LepraPostUndergroundCell.m */,
+				C77B9F6D1B22D8A900ED49EF /* LepraPostUndergroundCell.xib */,
+				C754D7EC1A7EB9AA00FAE742 /* LepraCommentHeaderCell.h */,
+				C754D7ED1A7EB9AB00FAE742 /* LepraCommentHeaderCell.m */,
+				C754D7EF1A7EB9B400FAE742 /* LepraCommentHeaderCell.xib */,
+				C77D25821B639963001A8490 /* LepraFullPostCell.h */,
+				C77D25831B639963001A8490 /* LepraFullPostCell.m */,
+				C77D25851B639972001A8490 /* LepraFullPostCell.xib */,
+				C77D25891B63AA5D001A8490 /* LepraCommentFullCell.h */,
+				C77D258A1B63AA5D001A8490 /* LepraCommentFullCell.m */,
+				C77D25871B63AA4B001A8490 /* LepraCommentFullCell.xib */,
+			);
+			name = Post;
+			sourceTree = "<group>";
+		};
+		C74226CD1A73B450008B7CC8 /* Load more */ = {
+			isa = PBXGroup;
+			children = (
+				C74226CA1A73B44D008B7CC8 /* LepraLoadMoreView.h */,
+				C74226CB1A73B44D008B7CC8 /* LepraLoadMoreView.m */,
+				C74226CE1A73B45E008B7CC8 /* LepraLoadMoreView.xib */,
+			);
+			name = "Load more";
+			sourceTree = "<group>";
+		};
+		C750D3471A727AA40064A457 /* Swipe */ = {
+			isa = PBXGroup;
+			children = (
+				C750D3441A727AA00064A457 /* LepraSwipeViewController.h */,
+				C750D3451A727AA00064A457 /* LepraSwipeViewController.m */,
+			);
+			name = Swipe;
+			sourceTree = "<group>";
+		};
+		C754D7F41A7EC8D200FAE742 /* About */ = {
+			isa = PBXGroup;
+			children = (
+				C754D7F11A7EBEC900FAE742 /* LepraAboutViewController.h */,
+				C754D7F21A7EBEC900FAE742 /* LepraAboutViewController.m */,
+			);
+			name = About;
+			sourceTree = "<group>";
+		};
+		C767DAF91A80DF9E00312DFA /* Prefs */ = {
+			isa = PBXGroup;
+			children = (
+				C767DAF61A80DF9A00312DFA /* LepraPrefsToggleCell.h */,
+				C767DAF71A80DF9A00312DFA /* LepraPrefsToggleCell.m */,
+				C767DAFA1A80DFAE00312DFA /* LepraPrefsDonateCell.h */,
+				C767DAFB1A80DFAE00312DFA /* LepraPrefsDonateCell.m */,
+			);
+			name = Prefs;
+			sourceTree = "<group>";
+		};
+		C767DAFD1A80E0B900312DFA /* Prefs */ = {
+			isa = PBXGroup;
+			children = (
+				C767DAF31A80DF1200312DFA /* LepraPrefsViewController.h */,
+				C767DAF41A80DF1200312DFA /* LepraPrefsViewController.m */,
+			);
+			name = Prefs;
+			sourceTree = "<group>";
+		};
+		C76DC1EC1AE3AC1F00DAA235 /* Feed prefs */ = {
+			isa = PBXGroup;
+			children = (
+				C76DC1E91AE3AC1900DAA235 /* LepraFeedPrefsViewController.h */,
+				C76DC1EA1AE3AC1900DAA235 /* LepraFeedPrefsViewController.m */,
+				C72FADDA1B2EF40C00EFC5DA /* LepraCommentsPrefsViewController.h */,
+				C72FADDB1B2EF40C00EFC5DA /* LepraCommentsPrefsViewController.m */,
+			);
+			name = "Feed prefs";
+			sourceTree = "<group>";
+		};
+		C77B9F6F1B2378D400ED49EF /* SWTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				C77B9F701B2378D400ED49EF /* NSMutableArray+SWUtilityButtons.h */,
+				C77B9F711B2378D400ED49EF /* NSMutableArray+SWUtilityButtons.m */,
+				C77B9F721B2378D400ED49EF /* SWCellScrollView.h */,
+				C77B9F731B2378D400ED49EF /* SWCellScrollView.m */,
+				C77B9F741B2378D400ED49EF /* SWLongPressGestureRecognizer.h */,
+				C77B9F751B2378D400ED49EF /* SWLongPressGestureRecognizer.m */,
+				C77B9F761B2378D400ED49EF /* SWTableViewCell.h */,
+				C77B9F771B2378D400ED49EF /* SWTableViewCell.m */,
+				C77B9F781B2378D400ED49EF /* SWUtilityButtonTapGestureRecognizer.h */,
+				C77B9F791B2378D400ED49EF /* SWUtilityButtonTapGestureRecognizer.m */,
+				C77B9F7A1B2378D400ED49EF /* SWUtilityButtonView.h */,
+				C77B9F7B1B2378D400ED49EF /* SWUtilityButtonView.m */,
+			);
+			path = SWTableViewCell;
+			sourceTree = "<group>";
+		};
+		C78DD3E91A7B7DC000B3E382 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C78DD3EA1A7B7DC000B3E382 /* LepraComment.h */,
+				C78DD3EB1A7B7DC000B3E382 /* LepraComment.m */,
+				C78DD3ED1A7B855100B3E382 /* LepraPost.h */,
+				C78DD3EE1A7B855100B3E382 /* LepraPost.m */,
+				C7D8A1431A7CCF0600F984A4 /* LepraProfile.h */,
+				C7D8A1441A7CCF0600F984A4 /* LepraProfile.m */,
+				C70520F81A7F920B00D4D4E5 /* LepraUnderground.h */,
+				C70520F91A7F920B00D4D4E5 /* LepraUnderground.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C78DD3F31A7B89A000B3E382 /* Favorites */ = {
+			isa = PBXGroup;
+			children = (
+				C78DD3F01A7B899C00B3E382 /* LepraFavoritesViewController.h */,
+				C78DD3F11A7B899C00B3E382 /* LepraFavoritesViewController.m */,
+			);
+			name = Favorites;
+			sourceTree = "<group>";
+		};
+		C78DD3F71A7B927100B3E382 /* My things */ = {
+			isa = PBXGroup;
+			children = (
+				C78DD3F41A7B926B00B3E382 /* LepraMyThingsViewController.h */,
+				C78DD3F51A7B926B00B3E382 /* LepraMyThingsViewController.m */,
+			);
+			name = "My things";
+			sourceTree = "<group>";
+		};
+		C78DD3FB1A7B966A00B3E382 /* Inbox */ = {
+			isa = PBXGroup;
+			children = (
+				C78DD3F81A7B966000B3E382 /* LepraInboxViewController.h */,
+				C78DD3F91A7B966000B3E382 /* LepraInboxViewController.m */,
+			);
+			name = Inbox;
+			sourceTree = "<group>";
+		};
+		C7A2EE4A1A73CB97002717C2 /* Post detail */ = {
+			isa = PBXGroup;
+			children = (
+				C7A2EE471A73CB94002717C2 /* LepraPostDetailViewController.h */,
+				C7A2EE481A73CB94002717C2 /* LepraPostDetailViewController.m */,
+				C7A2EE4B1A73CF41002717C2 /* LepraPostDetailCommentsViewController.h */,
+				C7A2EE4C1A73CF41002717C2 /* LepraPostDetailCommentsViewController.m */,
+				C767DAFE1A80E89300312DFA /* LepraWriteCommentViewController.h */,
+				C767DAFF1A80E89300312DFA /* LepraWriteCommentViewController.m */,
+			);
+			name = "Post detail";
+			sourceTree = "<group>";
+		};
+		C7BDAF001A6160BB00BE3F27 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				C7BDAEFD1A6160B700BE3F27 /* LepraProfileViewController.h */,
+				C7BDAEFE1A6160B700BE3F27 /* LepraProfileViewController.m */,
+				C750D3481A7285270064A457 /* LepraProfilePostsViewController.h */,
+				C750D3491A7285270064A457 /* LepraProfilePostsViewController.m */,
+				C74226D81A73C5AE008B7CC8 /* LepraProfileCommentsViewController.h */,
+				C74226D91A73C5AE008B7CC8 /* LepraProfileCommentsViewController.m */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		C7BDAF0A1A616E9E00BE3F27 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				C7BDAF011A616E7900BE3F27 /* LepraProfileInfoCell.h */,
+				C7BDAF021A616E7900BE3F27 /* LepraProfileInfoCell.m */,
+				C7BDAF041A616E8C00BE3F27 /* LepraProfileContactCell.h */,
+				C7BDAF051A616E8C00BE3F27 /* LepraProfileContactCell.m */,
+				C7BDAF071A616E9900BE3F27 /* LepraProfileUserTextCell.h */,
+				C7BDAF081A616E9900BE3F27 /* LepraProfileUserTextCell.m */,
+				C74226D01A73C3E4008B7CC8 /* LepraProfileUserTextCell.xib */,
+				C797EEB31A63A6C9008B9DB0 /* LepraProfileImageCell.h */,
+				C797EEB41A63A6C9008B9DB0 /* LepraProfileImageCell.m */,
+				C74226D21A73C3F1008B7CC8 /* LepraProfileImageCell.xib */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C71524401A4D7E2D00E84D84 /* Leprosorium */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C71524671A4D7E2D00E84D84 /* Build configuration list for PBXNativeTarget "Leprosorium" */;
+			buildPhases = (
+				3EAD7B8F7ADA6CB5A6EC513B /* Check Pods Manifest.lock */,
+				C715243D1A4D7E2D00E84D84 /* Sources */,
+				C715243E1A4D7E2D00E84D84 /* Frameworks */,
+				C715243F1A4D7E2D00E84D84 /* Resources */,
+				9357DC68E50B848AB8D1FFDA /* Copy Pods Resources */,
+				C71435F11ACFF9DF00C679A2 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Leprosorium;
+			productName = Leprosorium;
+			productReference = C71524411A4D7E2D00E84D84 /* Leprosorium.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C715245C1A4D7E2D00E84D84 /* LeprosoriumTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C715246A1A4D7E2D00E84D84 /* Build configuration list for PBXNativeTarget "LeprosoriumTests" */;
+			buildPhases = (
+				C71524591A4D7E2D00E84D84 /* Sources */,
+				C715245A1A4D7E2D00E84D84 /* Frameworks */,
+				C715245B1A4D7E2D00E84D84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C715245F1A4D7E2D00E84D84 /* PBXTargetDependency */,
+			);
+			name = LeprosoriumTests;
+			productName = LeprosoriumTests;
+			productReference = C715245D1A4D7E2D00E84D84 /* LeprosoriumTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C71524391A4D7E2D00E84D84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Lepra;
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Roma Bakenbard";
+				TargetAttributes = {
+					C71524401A4D7E2D00E84D84 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					C715245C1A4D7E2D00E84D84 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = C71524401A4D7E2D00E84D84;
+					};
+				};
+			};
+			buildConfigurationList = C715243C1A4D7E2D00E84D84 /* Build configuration list for PBXProject "Leprosorium" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C71524381A4D7E2D00E84D84;
+			productRefGroup = C71524421A4D7E2D00E84D84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C71524401A4D7E2D00E84D84 /* Leprosorium */,
+				C715245C1A4D7E2D00E84D84 /* LeprosoriumTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C715243F1A4D7E2D00E84D84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C71524B41A4D8CB800E84D84 /* LepraDoneAccessoryView.xib in Resources */,
+				C77B9F691B22374600ED49EF /* Images.xcassets in Resources */,
+				C74226D51A73C541008B7CC8 /* LepraPostFooterCell.xib in Resources */,
+				C71524531A4D7E2D00E84D84 /* Main.storyboard in Resources */,
+				C74226CF1A73B45E008B7CC8 /* LepraLoadMoreView.xib in Resources */,
+				C74226D71A73C54A008B7CC8 /* LepraPostRatingCell.xib in Resources */,
+				C77B9F6E1B22D8A900ED49EF /* LepraPostUndergroundCell.xib in Resources */,
+				C77D25881B63AA4B001A8490 /* LepraCommentFullCell.xib in Resources */,
+				C77D25861B639972001A8490 /* LepraFullPostCell.xib in Resources */,
+				C7E23D8E1A7E4FCF0000BA58 /* LepraPostHeaderCell.xib in Resources */,
+				C754D7F01A7EB9B400FAE742 /* LepraCommentHeaderCell.xib in Resources */,
+				C74226D31A73C3F1008B7CC8 /* LepraProfileImageCell.xib in Resources */,
+				C74226D11A73C3E4008B7CC8 /* LepraProfileUserTextCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C715245B1A4D7E2D00E84D84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3EAD7B8F7ADA6CB5A6EC513B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9357DC68E50B848AB8D1FFDA /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C71435F11ACFF9DF00C679A2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Crashlytics.framework/run d1a283ca901e7003faba11c3698437e95ebc4e89 c65c608a84ad7cfd20b93cfd6f9ec2a43e630c5cbc3398a37d7025fd4d0ed428";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C715243D1A4D7E2D00E84D84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C78DD3EF1A7B855100B3E382 /* LepraPost.m in Sources */,
+				C715247C1A4D814E00E84D84 /* LepraGeneralHelper.m in Sources */,
+				C71524911A4D850B00E84D84 /* LepraContainerViewController.m in Sources */,
+				C754D7F31A7EBEC900FAE742 /* LepraAboutViewController.m in Sources */,
+				C78DD3EC1A7B7DC000B3E382 /* LepraComment.m in Sources */,
+				C7B63DF51AEA4BA8009D49C8 /* LepraMenuHeaderCell.m in Sources */,
+				C7BDAF031A616E7900BE3F27 /* LepraProfileInfoCell.m in Sources */,
+				C715244D1A4D7E2D00E84D84 /* Leprosorium.xcdatamodeld in Sources */,
+				C767DB001A80E89300312DFA /* LepraWriteCommentViewController.m in Sources */,
+				C76DC1EB1AE3AC1900DAA235 /* LepraFeedPrefsViewController.m in Sources */,
+				C77B9F7C1B2378D400ED49EF /* NSMutableArray+SWUtilityButtons.m in Sources */,
+				C77D258B1B63AA5D001A8490 /* LepraCommentFullCell.m in Sources */,
+				C77D25841B639963001A8490 /* LepraFullPostCell.m in Sources */,
+				C78DD3FA1A7B966000B3E382 /* LepraInboxViewController.m in Sources */,
+				C750D34A1A7285270064A457 /* LepraProfilePostsViewController.m in Sources */,
+				C715244A1A4D7E2D00E84D84 /* AppDelegate.m in Sources */,
+				C72FADDC1B2EF40C00EFC5DA /* LepraCommentsPrefsViewController.m in Sources */,
+				C78DD3F61A7B926B00B3E382 /* LepraMyThingsViewController.m in Sources */,
+				C7A2EE491A73CB94002717C2 /* LepraPostDetailViewController.m in Sources */,
+				C754D7EE1A7EB9AB00FAE742 /* LepraCommentHeaderCell.m in Sources */,
+				C7E23D8C1A7E4FC00000BA58 /* LepraPostHeaderCell.m in Sources */,
+				C77B9F7F1B2378D400ED49EF /* SWTableViewCell.m in Sources */,
+				C70520FA1A7F920B00D4D4E5 /* LepraUnderground.m in Sources */,
+				C77B9F671B2234DB00ED49EF /* LepraNewLoginViewController.m in Sources */,
+				C71F36CF1A76686C00481305 /* LepraMainPagePostsViewController.m in Sources */,
+				C77B9F801B2378D400ED49EF /* SWUtilityButtonTapGestureRecognizer.m in Sources */,
+				C71524B81A4D8ECA00E84D84 /* LepraBlancViewController.m in Sources */,
+				C78DD3F21A7B899C00B3E382 /* LepraFavoritesViewController.m in Sources */,
+				C7BDAF091A616E9900BE3F27 /* LepraProfileUserTextCell.m in Sources */,
+				C74226C91A73B084008B7CC8 /* LepraPostRatingCell.m in Sources */,
+				C71524851A4D828800E84D84 /* NSString+HTML.m in Sources */,
+				C7222E351A7680C800FE1B7F /* LepraUndergroundCell.m in Sources */,
+				C715249E1A4D873E00E84D84 /* LepraCommonTableViewCell.m in Sources */,
+				C71F36CC1A765AFC00481305 /* LepraMenuGertrudaCell.m in Sources */,
+				C71524731A4D80A700E84D84 /* LepraCommonViewController.m in Sources */,
+				C797EEB51A63A6C9008B9DB0 /* LepraProfileImageCell.m in Sources */,
+				C71524471A4D7E2D00E84D84 /* main.m in Sources */,
+				C71524C11A4D926500E84D84 /* LepraAPIManager.m in Sources */,
+				C77B9F811B2378D400ED49EF /* SWUtilityButtonView.m in Sources */,
+				C71524AE1A4D8BAC00E84D84 /* LepraLoginCell.m in Sources */,
+				C750D3461A727AA00064A457 /* LepraSwipeViewController.m in Sources */,
+				C7D8A1451A7CCF0600F984A4 /* LepraProfile.m in Sources */,
+				C71524AA1A4D897800E84D84 /* LepraLoginViewController.m in Sources */,
+				C71524B31A4D8CB800E84D84 /* LepraDoneAccessoryView.m in Sources */,
+				C74226DA1A73C5AE008B7CC8 /* LepraProfileCommentsViewController.m in Sources */,
+				C77B9F7E1B2378D400ED49EF /* SWLongPressGestureRecognizer.m in Sources */,
+				C77B9F7D1B2378D400ED49EF /* SWCellScrollView.m in Sources */,
+				C71524A61A4D87AF00E84D84 /* LepraMenuElementCell.m in Sources */,
+				C71524BC1A4D91B800E84D84 /* LepraHTTPClient.m in Sources */,
+				C767DAF81A80DF9A00312DFA /* LepraPrefsToggleCell.m in Sources */,
+				C7A2EE4D1A73CF41002717C2 /* LepraPostDetailCommentsViewController.m in Sources */,
+				C7BDAEFF1A6160B700BE3F27 /* LepraProfileViewController.m in Sources */,
+				C7222E311A767F3C00FE1B7F /* LepraUndergroundViewController.m in Sources */,
+				C74226C51A739F89008B7CC8 /* LepraPostFooterCell.m in Sources */,
+				C77B9F6C1B22D89B00ED49EF /* LepraPostUndergroundCell.m in Sources */,
+				C767DAF51A80DF1200312DFA /* LepraPrefsViewController.m in Sources */,
+				C767DAFC1A80DFAE00312DFA /* LepraPrefsDonateCell.m in Sources */,
+				C71524961A4D85B300E84D84 /* LepraMenuViewController.m in Sources */,
+				C71524A31A4D879D00E84D84 /* LepraMenuProfileCell.m in Sources */,
+				C715248D1A4D84B900E84D84 /* LepraNavigationController.m in Sources */,
+				C71524891A4D846500E84D84 /* LepraCommonTableViewController.m in Sources */,
+				C71524841A4D828800E84D84 /* GTMNSString+HTML.m in Sources */,
+				C74226CC1A73B44D008B7CC8 /* LepraLoadMoreView.m in Sources */,
+				C7BDAF061A616E8C00BE3F27 /* LepraProfileContactCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C71524591A4D7E2D00E84D84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C71524641A4D7E2D00E84D84 /* LeprosoriumTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C715245F1A4D7E2D00E84D84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C71524401A4D7E2D00E84D84 /* Leprosorium */;
+			targetProxy = C715245E1A4D7E2D00E84D84 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C71524511A4D7E2D00E84D84 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C71524521A4D7E2D00E84D84 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C71524651A4D7E2D00E84D84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C71524661A4D7E2D00E84D84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: MAKSIM AMIRKULIEV (6G584Z3UBH)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: MAKSIM AMIRKULIEV (6G584Z3UBH)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "ccd317f2-b108-43f8-ad5d-107174861e5f";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C71524681A4D7E2D00E84D84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F289D5ADE9027CD2BC1A1286 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PREFIX_HEADER = "Leprosorium/Leprosorium-Prefix.pch";
+				INFOPLIST_FILE = Leprosorium/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C71524691A4D7E2D00E84D84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E44FB9CD9E8D8F14F934E7F /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: MAKSIM AMIRKULIEV (6G584Z3UBH)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: MAKSIM AMIRKULIEV (6G584Z3UBH)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PREFIX_HEADER = "Leprosorium/Leprosorium-Prefix.pch";
+				INFOPLIST_FILE = Leprosorium/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "57b26a95-a544-4af4-bdc3-46d8fa5480cc";
+			};
+			name = Release;
+		};
+		C715246B1A4D7E2D00E84D84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LeprosoriumTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Leprosorium.app/Leprosorium";
+			};
+			name = Debug;
+		};
+		C715246C1A4D7E2D00E84D84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LeprosoriumTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Leprosorium.app/Leprosorium";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C715243C1A4D7E2D00E84D84 /* Build configuration list for PBXProject "Leprosorium" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C71524651A4D7E2D00E84D84 /* Debug */,
+				C71524661A4D7E2D00E84D84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C71524671A4D7E2D00E84D84 /* Build configuration list for PBXNativeTarget "Leprosorium" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C71524681A4D7E2D00E84D84 /* Debug */,
+				C71524691A4D7E2D00E84D84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C715246A1A4D7E2D00E84D84 /* Build configuration list for PBXNativeTarget "LeprosoriumTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C715246B1A4D7E2D00E84D84 /* Debug */,
+				C715246C1A4D7E2D00E84D84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C715244B1A4D7E2D00E84D84 /* Leprosorium.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C715244C1A4D7E2D00E84D84 /* Leprosorium.xcdatamodel */,
+			);
+			currentVersion = C715244C1A4D7E2D00E84D84 /* Leprosorium.xcdatamodel */;
+			path = Leprosorium.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C71524391A4D7E2D00E84D84 /* Project object */;
+}
